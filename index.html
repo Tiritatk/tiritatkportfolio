@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tiritatk — Dev Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Tiritatk.com</a>
+      <nav class="nav">
+        <a href="#about"> &lt;/AboutMe&gt;</a>
+        <a href="#projects">&lt;/MyProjects&gt;</a>
+        <a href="#contact">&lt;/ContactMe&gt;</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+                      <h2 class="code-inline fade-in-up" style="--delay: 0s">fn portfolio() {</h2>
+          <h1 class="fade-in-up" style="--delay: 0.2s">Hello, I'm <span class="accent">Tiritatk!</span></h1>
+          <p class="lead fade-in-up" style="--delay: 0.4s">Welcome to my portfolio! Here you will find a few small projects I've published, the tools I use, and what I'm working on right now.</p>
+
+          <div class="skills fade-in-up" style="--delay: 0.6s">
+            <span class="chip">.NET</span>
+            <span class="chip">C#</span>
+            <span class="chip">Photoshop</span>
+            <span class="chip">Unity Modding</span>
+            <span class="chip">Rust</span>
+            <span class="chip">Linux</span>
+          </div>
+
+                    <div class="cta-row fade-in-up" style="--delay: 0.8s">
+            <a class="btn primary" href="#projects">See projects</a>
+            <a class="btn ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+
+        <!-- simplified profile image: larger, rounded, no stats/links -->
+        
+        
+        <div class="avatar-large" id="avatar" aria-hidden="true">
+          <img src="resources/pfp.png" alt="tiritatk profile picture">
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+          <h1 class="aboutme fade-in-up" style="--delay: 1s">About <span class="accent">Me</span></h1>
+        <p class="fade-in-up aboutsize" style="--delay: 1.2s">Hi There! My name is David. My interest in development started in 2022 when i joined a 'Fall Guys' Modding Discord Server, where they were developing an unnofficial creative mode to play custom maps offline. I started a YouTube channel to showcase the maps, while i was helping with the Project. I also developed a rework of the original mod, called Fall Factory Rework, adding a few more features.</p>
+        <p class="fade-in-up aboutsize" style="--delay: 1.4s">In 2023, I started accepting Photoshop commisions in Fiverr. I made Minecraft edited profile pictures with the skin they provided.</p>
+        <p class="fade-in-up aboutsize" style="--delay: 1.6s">Also, I like software development and I created a few cool projects that I use sometimes in my daily life to simplify work.</p>
+        
+        <div class="about-images fade-in-up" style="--delay: 1.7s">
+          <div class="about-image">
+            <img src="resources/screenshots/ffrework.png" alt="Fall Factory Rework Mod Screenshot">
+          </div>
+          <div class="about-image">
+            <img src="resources/screenshots/minecraftpfp.png" alt="Minecraft Profile Picture Photoshop commisions">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tech-stack">
+      <h1 class="fade-in-up" style="--delay: 1.8s">My <span class="accent">Skills</span></h1>
+          <div class="tech-grid fade-in-up" style="--delay: 2s">
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/net.png" alt=".NET">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/unity.png" alt="Unity">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/photoshop.png" alt="Adobe Photoshop">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/linux.png" alt="Linux">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/github.png" alt="Github">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/melonloader.png" alt="MelonLoader">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/csharp.png" alt="C#">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/html.png" alt="HTML5">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/css.png" alt="CSS3">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/rust.png" alt="Rust">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/python.png" alt="Python">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/vs.png" alt="Visual Studio">
+              </div>
+            </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/vscode.png" alt="Visual Studio Code">
+              </div>
+                          </div>
+            <div class="tech-item">
+              <div class="tech-icon">
+                <img src="resources/skills/vercel.png" alt="Vercel">
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <section class="projects" id="projects">
+      <div class="container">
+      <h1 class="projectsclass" style="--delay: 2.2s">Featured <span class="accent">Projects</span></h1>
+  <div class="projects-grid fade-in-up" id="projectsGrid" style="--delay: 2.4s">
+          <!-- Projects will be injected by JS -->
+        </div>
+        <div class="more-row">
+          <a class="btn outline" href="https://github.com/tiritatk" target="_blank" rel="noopener">View more on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+  <h2 class="fade-in-up" style="--delay: 2.6s">Contact</h2>
+        <p>If you have a project or an opportunity, say hi — I usually reply within a few days.</p>
+
+        <form id="contactForm" class="contact-form" action="#" onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" placeholder="Tell me about the project" rows="4" required></textarea>
+          <div class="form-row">
+            <button class="btn primary" id="sendBtn">Send message</button>
+            <div id="formMsg" class="form-msg" aria-live="polite"></div>
+          </div>
+        </form>
+
+        <div class="contact-links">
+          <a href="mailto:you@domain.com">you@domain.com</a>
+          <a href="https://linkedin.com/in/tiritatk" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> tiritatk</div>
+      <div class="foot-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project details modal -->
+  <div id="projectModal" class="modal-overlay" style="display:none" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <div class="modal-body">
+        <div class="modal-carousel"><img src="" alt="Project screenshot"></div>
+        <div class="modal-info">
+          <h3></h3>
+          <p></p>
+          <div class="carousel-controls">
+            <button id="prevShot">◀</button>
+            <button id="nextShot">▶</button>
+            <a class="btn primary" id="modalLive" href="#" target="_blank" rel="noopener">Open live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
