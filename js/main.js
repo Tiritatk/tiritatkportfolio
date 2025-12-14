@@ -65,10 +65,6 @@ function injectProjects(){
       <div class="project-body">
         <h3>${p.title}</h3>
         <p>${p.desc}</p>
-        <div class="project-actions">
-          <a class="btn primary" href="${p.link}" target="_blank" rel="noopener">Github</a>
-          <button class="btn ghost" data-project-id="${p.id}">Details</button>
-        </div>
       </div>
     `;
 
