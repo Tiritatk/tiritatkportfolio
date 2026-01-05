@@ -188,4 +188,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     next?.addEventListener('click', ()=>showProjectImage(1));
   }
 
+  // contact button removed — contact section now at page bottom
+
 });
